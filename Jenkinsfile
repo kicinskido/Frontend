@@ -13,7 +13,7 @@ pipeline {
 stages {
     stage('Git pull') {
     steps {
-            //git branch: 'tests', url: 'https://github.com/kicinskido/Frontend.git'
+            git branch: 'tests', url: 'https://github.com/kicinskido/Frontend.git'
             checkout scm
             }
     }
